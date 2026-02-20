@@ -8,7 +8,7 @@ document.getElementById('login-btn').addEventListener("click", function() {
     
     if(contactNumber=="01712345678"&&digitNumber=="1234") {
         alert("Login successfully")
-        window.location.assign("../home.html")
+        window.location.assign("/home.html")
     }
     else {
         alert("Your Information Is Incorrect")
